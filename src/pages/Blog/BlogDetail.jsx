@@ -22,9 +22,9 @@ const BlogDetail = () => {
 				</div>
 			)}
 			{data && (
-				<div key={data.imdbID}>
-					<h1>{data.Title}</h1>
-					<p>{data.Plot}</p>
+				<div key={data.Search.imdbID}>
+					<h1>{data.Search.Title}</h1>
+					<p>{data.Search.Plot}</p>
 				</div>
 			)}
 		</div>
